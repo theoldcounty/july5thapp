@@ -1,0 +1,64 @@
+
+.brand-obj{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .brand-logo {  
+    width: 70%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+    .smith {
+      position: absolute;
+      left:5%;
+      transition: all 1200ms ease-in;
+      opacity: 0;
+      width: 36%;
+
+      &.js-animate {
+        animation: slideRight 1250ms linear;
+        opacity: 1;
+      }
+    }    
+    .plus{
+      position: absolute;
+      height: auto;
+      transition: all 1500ms ease-in;
+      
+      width: 100%;
+      left: 50%;
+      top: 50%;
+      opacity: 0;
+      transform: translate(-50%, -50%);
+      
+      &.js-animate{
+        left: 50%;
+        width: 5%;
+        transform: translateY(84%);
+        opacity: 1;
+      }
+      &.finish-off{
+        left: 43.4%;
+        transition: all 250ms ease-in;
+        transform: translateY(84%);
+      }
+    }
+    .nephew {
+      position: absolute;
+      left: 45%;
+      width: 50%;
+      transition: all 1200ms ease-in;
+      opacity: 0;
+
+      &.js-animate {
+        animation: slideLeft 1250ms linear;
+        opacity: 1;
+      }
+    }
+  }
+}
+

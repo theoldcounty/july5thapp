@@ -1,0 +1,234 @@
+
+@media only screen and (min-width: 769px) {
+
+  .section .section-wrapper{
+    width: 1440px;
+  }
+
+  .free-elements{
+    width: 1440px;
+    margin-left: -720px;
+  }
+
+  .hamburger{
+    display: none;
+  }
+  .btns {
+    background: none;
+    width: auto;
+    height: auto;
+    top: 35px;
+    right: 20px;
+    padding: 0;
+    display:block;
+    box-shadow: none;
+
+    .plc-wrap,
+    .btn-wrap{
+      width: auto;
+      text-align: left;
+      margin-bottom: auto;
+      margin-left: 25px;
+
+      button{
+        font-size: 17px;
+      }
+    }
+
+    .btn-wrap{
+      top:10px;
+      position:relative;
+    }
+  }
+
+  h2 {
+    font-size: 120px;
+    line-height: 120px;
+  }
+
+/*
+  h3 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+*/
+
+  .text-obj{ 
+    padding: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    &.left {
+      p{
+        margin-left: auto;
+        margin-right: 30%;
+      }      
+    }
+    &.right {      
+      p{
+        margin-left: 30%;
+        margin-right: auto;
+      }
+    }
+  }
+
+  .threesixty-obj {
+    img {
+      width: 600px;
+      height: auto;
+      top: 45%;
+      transform: translateY(-55%);
+      right: 3%;
+      left: auto;
+    }
+  }
+
+  .LazyLoad {
+    height: 400px;
+
+    img{
+      height: 375px;
+      width: auto;
+    }
+  }
+
+  .material-icons.icon{
+    height: 70px;
+    width: 70px;
+    font-size: 33px;
+    padding: 18px;
+  }
+  
+  .img-obj {
+    img {
+      height: 100vh;
+      width: auto;
+    }
+  }
+
+  .svg-obj{
+    .svg-wrapper{
+
+        &.scapula {
+          top: auto;
+          left: auto;
+          right: -120px;
+          width: 1000px;
+          bottom: -180px;
+        }
+
+        &.deltoid {
+          left: -100px;
+          bottom: -100px;
+          width: 800px;
+          top: auto;
+        }
+
+
+        &.femur {
+          right: 180px;
+          top: -1700px;
+          width: 400px;
+        }
+        &.fibula-tibia {
+          right: 150px;
+          top: 450px;
+          width: 330px;
+        }
+
+
+        &.rhomboid {
+          bottom: -50px;
+          right: -100px;
+          left: auto;
+          width: 48%;
+        }
+
+        &.cranium {
+          bottom: -350px;
+          left: -98px;
+          width: 774px;
+        }
+
+
+        &.latissimus-dorsi {
+          right: 10%;
+          bottom: -34%;
+          width: 47%;
+          left: auto;
+        }
+
+        &.back-leg {
+          bottom: -37%;
+          left: auto;
+          width: 30%;
+          right: -14%;
+        }
+
+
+        &.spine-yellow {
+          bottom: -225px;
+          left: -213px;
+          width: 570px;
+        }
+        &.spine-salmon {
+          bottom: -450px;
+          left: 350px;
+          width: 620px;
+        }
+        &.spine-pink {
+          width: 410px;
+          bottom: -400px;
+          left: 890px;
+        }
+
+    }
+  }
+
+  .img-obj img{
+    &.womenfriends {
+      right: -400px;
+      bottom: -20px;
+      
+      height: 768px;
+      width: auto;
+    }
+
+    &.scientificequipment{
+      left: -500px;
+      bottom: -1200px;
+      height: 1800px;
+      width: auto;
+    }
+
+    &.womenwithchild{
+      height: 768px;
+      width: auto;
+      bottom: 0;
+      right: -400px;
+    }
+
+    &.medical{
+      bottom: 0;
+      height: 568px;
+      width: auto;
+      left: -200px;
+    }
+
+    &.childhold {
+      height: 768px;
+      width: auto;
+      bottom: -30px;
+      right: -400px;
+    }
+
+    &.womanonrocks{
+      left: -7%;
+      bottom: 58px;
+
+      height: 768px;
+      width: auto;
+    }
+  }
+
+}

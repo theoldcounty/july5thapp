@@ -1,0 +1,164 @@
+
+.text-obj,
+.svg-obj .svg-wrapper,
+.img-obj,
+.threesixty-obj{
+  opacity: 0;
+}
+
+.fadein{
+  &.text-obj,
+  &.svg-wrapper,
+  &.img-obj,
+  &.threesixty-obj{
+    opacity: 0;
+    transition: all 300ms ease-in;
+
+    &.animate{
+      opacity: 1;
+    }
+  }
+}
+
+
+.slideup{
+  &.text-obj,
+  &.svg-wrapper{
+    transition: all 250ms ease-in;
+
+    &.animate{
+      animation: slideUp 350ms linear;
+    }
+  }
+
+  &.img-obj{
+    transition: all 350ms ease-in;
+
+    &.animate{
+      img{
+        animation: slideUp 350ms linear;
+      }
+    }
+  }
+}
+
+.slidedown{
+  &.text-obj,
+  &.svg-wrapper{
+    transition: all 250ms ease-in;
+
+    &.animate{
+      animation: slideDown 350ms linear;
+    }
+  }
+
+  &.img-obj{
+    transition: all 350ms ease-in;
+
+    &.animate{
+      img{
+        animation: slideDown 350ms linear;
+      }
+    }
+  }
+}
+
+.slideleft{
+  &.svg-wrapper{
+    transition: all 250ms ease-in;
+
+    &.animate{
+      animation: slideLeft 350ms linear;
+    }
+  }
+
+  &.img-obj{
+  transition: all 350ms ease-in;
+
+  &.animate{
+    img{
+      animation: slideLeft 350ms linear;
+    }
+  }
+}
+}
+
+.slideright{
+  &.svg-wrapper{
+    transition: all 250ms ease-in;
+
+    &.animate{
+      animation: slideRight 350ms linear;
+    }
+  }
+   
+  &.img-obj{
+    transition: all 350ms ease-in;
+
+    &.animate{
+      img{
+        animation: slideRight 350ms linear;
+      }
+    }
+  }
+}
+
+.sliderightup{
+  &.svg-wrapper{
+    transition: all 250ms ease-in;
+
+    &.animate{
+      animation: slideRightUp 350ms linear;
+    }
+  }
+   
+  &.img-obj{
+    transition: all 350ms ease-in;
+
+    &.animate{
+      img{
+        animation: slideRightUp 350ms linear;
+      }
+    }
+  }  
+}
+
+.sliderightdown{
+  &.svg-wrapper{
+    transition: all 250ms ease-in;
+
+    &.animate{
+      animation: slideRightDown 350ms linear;
+    }
+  }
+   
+  &.img-obj{
+    transition: all 350ms ease-in;
+
+    &.animate{
+      img{
+        animation: slideRightDown 350ms linear;
+      }
+    }
+  }  
+}
+
+.rotateclockwise{
+  &.svg-wrapper{
+    transition: all 350ms ease-in;
+
+    &.animate{
+      animation: rotateClockwise 850ms linear;
+    }
+  }
+}
+
+.rotatecounterclockwise{
+  &.svg-wrapper{
+    transition: all 350ms ease-in;
+
+    &.animate{
+      animation: rotateCounterClockwise 850ms linear;
+    }
+  }
+}

@@ -1,0 +1,142 @@
+
+  @keyframes slideLeft {
+    0% {
+      transform: translate3d(400px, 0, 0);
+    }
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  @keyframes slideRight {
+    0% {
+      transform: translate3d(-400px, 0, 0);
+    }
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  @keyframes slideUp {
+    0% {
+      transform: translate3d(0, 100px, 0);
+    }
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  @keyframes slideRightUp {
+    0% {
+      transform: translate3d(-400px, 400px, 0);
+    }
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+
+  @keyframes slideDown {
+    0% {
+      transform: translate3d(0, -100px, 0);
+    }
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+
+
+  @keyframes slideRightDown {
+    0% {
+      transform: translate3d(-400px, -400px, 0);
+    }
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+
+  @keyframes falling {
+    0% {
+      transform: translate3d(-400px, 0, 0) rotateX(0) rotateY(0) rotateZ(0);
+    }
+    33% {
+      transform: rotate(15deg);
+    }
+    66% {
+      transform: rotate(-15deg);
+    }
+    100% {
+      transform: translate3d(0, 0, 0) rotateX(5deg) rotateY(0deg) rotateZ(10deg);
+    }
+  }
+
+
+
+  @keyframes jiggle {
+    0% {
+      transform: rotate(0);
+    }
+    33% {
+      transform: rotate(15deg);
+    }
+    66% {
+      transform: rotate(-15deg);
+    }
+    100% {
+      transform: rotate(0);
+    }
+  }
+
+
+  @keyframes rotateClockwise {
+    0% {
+      transform: rotate(-90deg);
+    }
+    33% {
+      transform: rotate(-75deg);
+    }
+    66% {
+      transform: rotate(-25deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  @keyframes rotateCounterClockwise {
+    0% {
+      transform: rotate(90deg);
+    }
+    33% {
+      transform: rotate(75deg);
+    }
+    66% {
+      transform: rotate(25deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
